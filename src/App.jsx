@@ -1,8 +1,12 @@
-function App(){
+import Card from "./components/Card";
+import Navbar from "./components/Navbar";
+function App() {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className="parent">
+      <Navbar></Navbar>
+      <Card name="Ram" />
+      <Card name="Shyam" />
     </div>
-  )
+  );
 }
-export default App
+export default App;

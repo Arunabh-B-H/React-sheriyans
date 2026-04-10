@@ -1,0 +1,36 @@
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+.card {
+  height: 400px;
+  width: auto;
+  background-color: black;
+  color: green;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+.card button {
+  background-color: green;
+  color: black;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.navbar {
+  background-color: black;
+  color: green;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
