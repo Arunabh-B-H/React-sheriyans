@@ -131,9 +131,13 @@ table {
   width: 100%;
   background-color: rgb(221, 227, 227);
   padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 3px;
 }
 .card {
-  height: 400px;
+  height: 300px;
   width: 300px;
   background-color: white;
   border-radius: 20px;
@@ -151,12 +155,12 @@ table {
   border: 1px solid #dadada;
   padding: 2px;
 }
-.center button{
+.center button {
   display: flex;
   align-items: center;
   border: 1px solid #dadada;
- 
-  /* font-size: 12px; */
-  
- 
+}
+
+.card .center {
+  background-color: red;
 }
